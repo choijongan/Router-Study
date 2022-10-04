@@ -2,7 +2,7 @@ import React from 'react'
 import { useSearchParams } from 'react-router-dom'
 
 const ProductPage = () => {
-    let [query, setQuery] = useSearchParams()
+    let [query, setQuery] = useSearchParams() // eslint-disable-line no-unused-vars 
     console.log("dddd",query.get('page'));
   return (
     <div>
